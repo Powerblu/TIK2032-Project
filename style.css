@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.tombol {
+    background-color: #1e90ff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.tombol nav {
+    margin-top: 10px;
+}
+
+.tombol button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    background-color: black;
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tombol button:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.judul {
+    color: #fff;
+    padding: 10px;
+}
+
+.judul h1 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    text-align: left;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 17px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    z-index: 100;
+}
+
+.footer p {
+    background-color: #333;
+}
+
+.contact-form {
+    background-color: gray;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
